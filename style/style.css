@@ -1,0 +1,74 @@
+body {
+  background: gray;
+}
+
+[name='changeBack'], [name='changeCol'] {
+  -webkit-transition: all 1.5s ease-in-out, 1s;
+  -moz-transition: all 1.5s ease-in-out 1s;
+  -o-transition: all 1.5s ease-in-out 1s;
+  transition: all 1.5s ease-in-out 1s;
+}
+
+#quotebox {
+    background: floralwhite;
+    margin-top: 8%;
+    border-radius: 3px;
+    position: relative;
+}
+
+p {
+    padding:30px 15px 0px 15px;
+    font-size: 2em;
+    text-align: center;
+}
+
+h5 {
+    text-align: right;
+    padding: 0 20px 0 30px;
+}
+
+.btn-toolbar {
+    margin:30px;
+    color: floralwhite;
+}
+
+#social > a {
+    margin: 2px;
+    min-width: 45px;
+    font-size: 1.5em;
+    background-color: gray;
+}
+
+a:link {
+  color:floralwhite;
+}
+
+a:visited {
+  color:floralwhite;
+}
+
+a:hover {
+  color:floralwhite;
+}
+
+a:active {
+  color:floralwhite;
+}
+
+#quotebutton {
+    margin: 1px;
+    float:right;
+    min-height: 45px;
+    background-color: gray;
+}
+
+#quotebutton:hover, #quotebutton:focus {
+  color:floralwhite;
+}
+
+#quotebutton:hover, #social > a:hover {
+  -webkit-filter: brightness(1.2) 0;
+  -moz-filter: brightness(1.2) 0;
+  -ms-filter: brightness(1.2) 0;
+  filter: brightness(1.2) 0;
+}
