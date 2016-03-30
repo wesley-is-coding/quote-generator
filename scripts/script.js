@@ -34,7 +34,7 @@ var colorList = [
   'maroon',
   'deeppink',
   'darkviolet',
-  'navajowhite',
+  'black',
   'turquoise'
 ]
 
