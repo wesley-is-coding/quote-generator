@@ -16,7 +16,7 @@ var colorList = [
   'rosybrown',
   'royalblue',
   'saddlebrown',
-  'navyblue',
+  'navy',
   'olivedrab',
   'orangered',
   'goldenrod',
@@ -63,7 +63,3 @@ $('#quotebutton').on('click', function() {
   $('p').hide().delay(1000).fadeIn(1500);
   $('h5').hide().delay(1000).fadeIn(1500);
 });
-
-$('#twit').on('click', function() {
-  $('#twit').attr('href', 'https://twitter.com/intent/tweet?text=' + choice)
-})

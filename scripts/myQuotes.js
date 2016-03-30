@@ -29,6 +29,26 @@ var stoic = [
             {
                 "quote": "From the philosopher Catulus, never to be dismissive of a friend's accusation, even if it seems unreasonable, but to make every effort to restore the relationship to its normal condition.",
                 "book": "Meditations"
+            },
+            {
+                "quote": "Approach each action as though it were your last, dismissing the wayward thought, the emotional recoil from the commands of reason.",
+                "book": "Meditations"
+            },
+            {
+                "quote": "Concentrate every minute on doing what's in front of you with precise and genuine seriousness, tenderly, willingly, with justice. And on freeing yourself from all other distractions. Yes, you can, if you do everything as if it were the last thing you were doing in your life, and stop being aimless, stop letting your emotions override what your mind tells you, stop being hypocritical, self-centred, irritable. You see how few things you have to do to live a satisfying and reverent life? If you can manage this, that's all even the gods can ask of you.",
+                "book": "Meditations"
+            },
+            {
+                "quote": "Remember that it is not he who reviles you or strikes you, who insults you, but it is your opinion about these things as being insulting. When then a man irritates you, you must know that it is your own opinion which has irritated you.",
+                "book": "Meditations"
+            },
+            {
+                "quote": "Actions performed through anger are less detestable than actions performed through lust. A man acting through anger most likely has an external force causing the action. A man acting through lust is simply seeking pleasure and his actions are purely his own.",
+                "book": "Meditations"
+            },
+            {
+                "quote": "He who lives in harmony with himself lives in harmony with the universe.",
+                "book": "Meditations"
             }
         ]
     },
@@ -74,6 +94,10 @@ var stoic = [
             },
             {
                 "quote": "Nothing, to my way of thinking, is a better proof of a well ordered mind than a man’s ability to stop just where he is and pass some time in his own company.",
+                "book": ""
+            },
+            {
+                "quote": "What man can you show me who places any value on his time, who reckons the worth of each day, who understands that he is dying daily?",
                 "book": ""
             }
         ]
@@ -162,6 +186,16 @@ var stoic = [
             },
             {
                 "quote": "What really frightens and dismays us is not external events themselves, but the way in which we think about them. It is not things that disturb us, but our interpretation of their significance.",
+                "book": ""
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "author": "Unknown",
+        "quotes": [
+            {
+                "quote": "Dwell on the beauty of life. Watch the stars and you will see yourself running with them.",
                 "book": ""
             }
         ]
