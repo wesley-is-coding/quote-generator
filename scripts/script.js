@@ -10,36 +10,8 @@ function change() {
   document.getElementsByName('changeCol')[0].style.color = newColor
 }
 
-var colorList = [
-  'firebrick',
-  'plum',
-  'rosybrown',
-  'royalblue',
-  'saddlebrown',
-  'navyblue',
-  'olivedrab',
-  'orangered',
-  'goldenrod',
-  'cadetblue',
-  'lightgreen',
-  'seagreen',
-  'darkolivegreen',
-  'darkorchid',
-  'darkred',
-  'darkgray',
-  'lightslategray',
-  'tomato',
-  'midnightblue',
-  'forestgreen',
-  'maroon',
-  'deeppink',
-  'darkviolet',
-  'navajowhite',
-  'turquoise'
-]
-
 function randomColor() {
-  return colorList[Math.floor(Math.random() * colorList.length)]
+  return "hsl(" + Math.random() * 360 + ",65%,50%)"
 }
                                                        
 function newQuote(arr) {
@@ -57,7 +29,6 @@ function newQuote(arr) {
       document.getElementById('theAuthor').innerHTML = '- ' + author
     }
 }
-
 
 $('#quotebutton').on('click', function() {
   $('p').hide().delay(1000).fadeIn(1500);
