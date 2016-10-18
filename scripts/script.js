@@ -10,36 +10,8 @@ function change() {
   document.getElementsByName('changeCol')[0].style.color = newColor
 }
 
-var colorList = [
-  'firebrick',
-  'plum',
-  'rosybrown',
-  'royalblue',
-  'saddlebrown',
-  'navy',
-  'olivedrab',
-  'orangered',
-  'goldenrod',
-  'cadetblue',
-  'lightgreen',
-  'seagreen',
-  'darkolivegreen',
-  'darkorchid',
-  'darkred',
-  'darkgray',
-  'lightslategray',
-  'tomato',
-  'midnightblue',
-  'forestgreen',
-  'maroon',
-  'deeppink',
-  'darkviolet',
-  'black',
-  'turquoise'
-]
-
 function randomColor() {
-  return colorList[Math.floor(Math.random() * colorList.length)]
+  return "hsl(" + Math.random() * 360 + ",65%,50%)"
 }
                                                        
 function newQuote(arr) {
@@ -58,8 +30,11 @@ function newQuote(arr) {
     }
 }
 
-
 $('#quotebutton').on('click', function() {
   $('p').hide().delay(1000).fadeIn(1500);
   $('h5').hide().delay(1000).fadeIn(1500);
 });
+
+$('#twit').on('click', function() {
+  $('#twit').attr('href', 'https://twitter.com/intent/tweet?text=' + choice)
+})
